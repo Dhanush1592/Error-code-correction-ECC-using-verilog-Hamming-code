@@ -25,8 +25,8 @@ The Hamming (12,8) code uses:
 
 | Syndrome | Word Parity | Interpretation         | Action                 |
 |----------|-------------|------------------------|------------------------|
-| `0000`   | Even        | No Error               | Accept as-is           |
-| `0000`   | Odd         | Word Parity Error      | Flag, no correction    |
+| `0000`   | Even        | No Error               | Accept as-it-is        |
+| `0000`   | Odd         | Word Parity Error      | correct the bit        |
 | ≠`0000`  | Odd         | Single-bit Error       | Correct the bit        |
 | ≠`0000`  | Even        | Multi-bit Error        | Uncorrectable          |
 
