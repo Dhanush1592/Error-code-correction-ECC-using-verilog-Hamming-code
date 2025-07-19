@@ -1,5 +1,7 @@
 # Error-code-correction-ECC-using-verilog-Hamming-code
 This project implements a **Hamming (12,8)** Error Detection and Correction system in Verilog, supporting **single-bit correction**, **word parity error detection**, and **multi-bit error reporting**.
+<img width="1471" height="384" alt="image" src="https://github.com/user-attachments/assets/ca236b7f-b80d-4404-8dbd-6443dd1c5cff" />
+Top module
 
 ## 🔍 Overview
 Hamming codes are a type of **block code** that can detect and correct **single-bit errors** in data transmission or memory. This project adds a 1-bit **word parity** to further enhance reliability.
